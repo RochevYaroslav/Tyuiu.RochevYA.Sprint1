@@ -4,7 +4,7 @@ namespace Tyuiu.RochevYA.Sprint1.Task0.V29.Lib
 {
     public class DataService : ISprint1Task0V29
     {
-        public double Calculate()
+        public double Calculate() 
         {
             return 2 * 9 + 7 * 2;
         }
