@@ -6,7 +6,7 @@ namespace Tyuiu.RochevYA.Sprint1.Task3.V7.Lib
     {
         public double VerstsToKilometers(double x)
         {
-            return Math.Round(x * 1066.8, 3);
+            return Math.Round(x * 1066.8 / 1000, 3);
         }
     }
 }
